@@ -18,4 +18,4 @@ if __name__ == '__main__':
         music.Music.audio_info = []
         await member.guild.voice_client.disconnect()
 
-CLIENT.run(TOKEN)
+CLIENT.run(os.environ['TOKEN'])
