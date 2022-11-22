@@ -1,5 +1,6 @@
 import music
 import asyncio
+import PyNaCl
 from settings import *
 
 if __name__ == '__main__':
