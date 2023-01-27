@@ -24,6 +24,7 @@ if __name__ == '__main__':
     activated = False
     activated2 = False
     while True:
+      BOT_DATA = COLLECTION.find_one({'_id': 'TaskMaster'})
       if datetime.now(TIME_ZONE).strftime('%I%M%S%p') == '120000AM' and activated == False:
         print('new day')
         minus_points = 0
