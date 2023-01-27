@@ -16,9 +16,6 @@ COLLECTION = DATABASE['UserData']
 
 TIME_ZONE = timezone('EST')
 
-BOT_DATA = COLLECTION.find_one({'_id': 'TaskMaster'})
-
-
 if __name__ == '__main__':
   def update_pool():
     activated = False
