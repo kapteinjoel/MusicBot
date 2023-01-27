@@ -49,7 +49,7 @@ if __name__ == '__main__':
           COLLECTION.update_one({'_id': user}, {'$set': {'my_daily': user_daily}})
         daily_drawn = []
         
-      if datetime.now().weekday() == 3 and datetime.now(TIME_ZONE).strftime('%I%M%S%p') == '120000AM' and activated2 == False:
+      if datetime.now().weekday() == 0 and datetime.now(TIME_ZONE).strftime('%I%M%S%p') == '120000AM' and activated2 == False:
         print('new week')
         minus_points = 0
         activated2 = True
