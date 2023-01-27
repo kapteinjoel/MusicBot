@@ -74,7 +74,7 @@ if __name__ == '__main__':
           COLLECTION.update_one({'_id': user}, {'$set': {'my_weekly': user_weekly}})
         weekly_drawn = []
 
-      if datetime.now(TIME_ZONE).strftime('%I%M%S%p') == '120000AM':
+      if datetime.now(TIME_ZONE).strftime('%I%M%S%p') == '120001AM':
         activated = False
         activated2 = False
 
